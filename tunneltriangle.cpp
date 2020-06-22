@@ -57,7 +57,7 @@ void newfig(int x,int y,vfig vf)
         vf[i].second = vectmat[1];
     }
     figure(vf);
-    delay(500);
+    delay(50);
 }
 void tunnel(float x1, float y1, float x2, float y2, vfig vf)
 {
@@ -91,3 +91,4 @@ int main()
     delay(10000);
     closegraph();
 }
+//1 2 20 40 40 2 1 2 200 50
